@@ -4,6 +4,7 @@ title: "Apa itu framework codeigniter4"
 date: 2020-02-02 22:08:07 +0800
 categories: umum
 tags: codeigniter, framework
+author: Firdaus Siregar
 comments: 1
 ---
 Framework dalam bahasa indonesia artinya kerangka kerja.
