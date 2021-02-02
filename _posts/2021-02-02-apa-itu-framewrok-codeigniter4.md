@@ -1,62 +1,47 @@
 ---
 layout: post
-title: "Apa itu framework codeigniter4"
+title: "Menginstall Codeigniter4 melalui Composer"
 date: 2020-02-02 22:08:07 +0800
 categories: umum
-tags: codeigniter, framework
+tags: codeigniter framework instalasi
 author: Firdaus Siregar
 comments: 1
 ---
-Framework dalam bahasa indonesia artinya kerangka kerja.
-Saya yakin,
-kamu yang sedang membaca artikel ini sudah pernah membuat web dengan PHP.
-Setidaknya membuat web sederhana yang berisi beberapa halaman.
-Apa yang akan kamu lakukan jika webnya semakin kompleks?
 
-Ya ditambahin lagi donk kodenya.
+Untuk menginstal CI 4 dengan composer, silahkan ketik perintah berikut.
+<br/>
+{% highlight shell linenos %}
+composer create-project codeigniter4/appstarter ci-news -vvv</code>
 
-Tapi..
-Kadang ini tidak berjalan mulus.
-Kode website kita akan semakin ribet dan berantakan. Bisa jadi disbeabkan karena kita asal-asalan menambahkan kode.
-Belum lagi, kita dituntut menulis kode yang rapi agar bisa dipahami orang lain (misalnya teman satu tim).
-Maka di sini kita tidak boleh seenaknya menulis kode yang asal-asalan.
-Karena itu, diciptakanlah framework atau kerangka kerja.
-Kerangka kerja dibuat agar kita bisa bekerja lebih mudah. Biasanya, framework menyediakan bahan-bahan yang siap pakai, sehingga kita tidak harus membuatnya dari nol.
-Selain itu, framework juga memiliki aturan-aturan yang harus diikuti.
+{% endhighlight %}
+Tungulah sampai prosesnya selesai.
 
-Contohnya seperti:
+Ada beberapa argumen yang kita berikan pada perintah ini:
 
-<li>Harus menaruh kode yang memiliki fungsi yang sama dalam satu folder</li>
-<li>Harus mengikuti aturan penulisan kode (writing conventions) yang disepakati</li>
-<li>Harus menggunakan pola desain ini, dan itu</li>
-<li>dan lain sebagainya.</li>
-Jadi apa itu framework?
+<li><b>create-project</b> adalah perintah untuk membuat proyek baru dengan composer</li>
+<li><b>codeigniter4/appstarter</b> adalah file CI yang akan di-download</li>
+<li><b>ci-news</b> adalah nama proyek yang akan kita buat</li>
+<li><b>-vvv</b> berfungsi untuk melihat proses install lebih detail</li>
+Setelah prosesnya selesai, kita akan mendapatkan folder baru dengan nama ci-news</>
 
-Framework adalah sebuah kerangka kerja yang digunakan untuk membantu developer dalam mengembangkan kode aplikasi secara konsisten.
-Codeigniter4 merupakan framework PHP untuk membangun aplikasi berbasis web.
+buka folder ci-news dengan teks editor VS Code.
 
-Codeigniter 4 mendukung PHP versi 7.2+, jika web server Anda belum support PHP 7.2+, saya sarankan untuk mengupgrade versi PHP Anda.
+Setelah itu buka terminal dengan menekan <kbd>Ctrl</kbd>+<kbd>`</kbd> dan jalankan perintah:
+<br/>
+{% highlight shell linenos %}
 
-Selain itu, Codeigniter 4 juga tidak dapat dijalankan jika web server Anda tidak mengaktifkan intl extention, php-json, php-mbstring, php-mysqlnd, dan php-xml.
+composer install -vvv
 
+{% endhighlight %}
 
-Anda dapat mengeceknya di phpinfo, jika salah satu extention tersebut tidak aktif (disabled), silahkan aktifkan pada file php.ini.
+Perintah ini akan menginstal semua library yang dibutuhkan CI 4.
+Setelah selesai, coba ketik perintah:
 
-C:/xampp/php
+<br/>
+{% highlight shell linenos %}
+php spark serve
 
-Sedangkan jika Anda menggunakan WampServer, file php.ini terdapat pada folder:
-
-C:/wamp64/bin/php/php7.4.3
-
-
-Selain itu, Codeigniter 4 tidak memiliki file “index.php” pada root project, dan file “index.php” dipindahkan ke folder “public” dengan alasan keamanan.
-
-Codeigniter 4 memudahkan web developer dengan penulisan kode program yang lebih singkat dan memberikan kemudahan dalam melacak error melalui mode “development”.
-
-
-Tidak hanya itu, Codeigniter 4 juga memudahkan web developer untuk membuat RESTful API
-Itulah yang membuat Codeigniter 4 menjadi semakin menarik
-
-
-
-Jika Anda menggunakan XAMPP, file php.ini terdapat pada folder:
+{% endhighlight %}
+Perintah ini akan menjalankan server CI 4 pada port 8080.
+Coba buka web browser dan arahkan ke alamat http://localhost:8080,
+CI 4 sudah berhasil diinstal.
