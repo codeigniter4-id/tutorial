@@ -25,10 +25,37 @@ Selain itu, framework juga memiliki aturan-aturan yang harus diikuti.
 
 Contohnya seperti:
 
-Harus menaruh kode yang memiliki fungsi yang sama dalam satu folder;
-Harus mengikuti aturan penulisan kode (writing conventions) yang disepakati;
-Harus menggunakan pola desain ini, dan itu;
-dan lain sebagainya.
+<li>Harus menaruh kode yang memiliki fungsi yang sama dalam satu folder</li>
+<li>Harus mengikuti aturan penulisan kode (writing conventions) yang disepakati</li>
+<li>Harus menggunakan pola desain ini, dan itu</li>
+<li>dan lain sebagainya.</li>
 Jadi apa itu framework?
 
 Framework adalah sebuah kerangka kerja yang digunakan untuk membantu developer dalam mengembangkan kode aplikasi secara konsisten.
+Codeigniter4 merupakan framework PHP untuk membangun aplikasi berbasis web.
+
+Codeigniter 4 mendukung PHP versi 7.2+, jika web server Anda belum support PHP 7.2+, saya sarankan untuk mengupgrade versi PHP Anda.
+
+Selain itu, Codeigniter 4 juga tidak dapat dijalankan jika web server Anda tidak mengaktifkan intl extention, php-json, php-mbstring, php-mysqlnd, dan php-xml.
+
+
+Anda dapat mengeceknya di phpinfo, jika salah satu extention tersebut tidak aktif (disabled), silahkan aktifkan pada file php.ini.
+
+C:/xampp/php
+
+Sedangkan jika Anda menggunakan WampServer, file php.ini terdapat pada folder:
+
+C:/wamp64/bin/php/php7.4.3
+
+
+Selain itu, Codeigniter 4 tidak memiliki file “index.php” pada root project, dan file “index.php” dipindahkan ke folder “public” dengan alasan keamanan.
+
+Codeigniter 4 memudahkan web developer dengan penulisan kode program yang lebih singkat dan memberikan kemudahan dalam melacak error melalui mode “development”.
+
+
+Tidak hanya itu, Codeigniter 4 juga memudahkan web developer untuk membuat RESTful API
+Itulah yang membuat Codeigniter 4 menjadi semakin menarik
+
+
+
+Jika Anda menggunakan XAMPP, file php.ini terdapat pada folder:
