@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Codeigniter4 indonesia
+title: Codeigniter4 indonesia | Tutorial 
 description: > # this means to ignore newlines until "baseurl:"
   Install Codeignter4 tutorial di HP Kamu <a href="http://codeigniter4-id.github.io/unduh/1.apk">Download</a> for jekyll sites
 baseurl: "https://codeigniter4-id.github.io/tutorial"
@@ -27,8 +27,8 @@ github_profile: "https://github.com/codeigniter4-id"
 user: "Codeigniter4 Indonesia"
 user_email: "fsteamcyber@gmail.com"
 contact_url: "https://forms.gle/xzCDTgPmYwUjuQ566"
-google_tracking_id: "UA-96359860-1"
-google_site_verification: "UA-96359860-1"
+google_tracking_id: "G-QLX2F3MT8E"
+google_site_verification: "G-QLX2F3MT8E"
 disqus_shortname: "https-codeigniter4-id-github-io-tutorial"
 
 # Build settings
