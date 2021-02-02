@@ -8,10 +8,10 @@ author: Firdaus Siregar
 comments: 1
 ---
 
-Untuk menginstal CI 4 dengan composer, silahkan ketik perintah berikut.
+Untuk menginstal CI 4 dengan composer, silahkan ketik perintah berikut diterminal.
 <br/>
 {% highlight shell linenos %}
-composer create-project codeigniter4/appstarter ci-news -vvv</code>
+composer create-project codeigniter4/appstarter ci-news -vvv
 
 {% endhighlight %}
 Tungulah sampai prosesnya selesai.
