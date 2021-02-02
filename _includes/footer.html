@@ -37,6 +37,15 @@
       ga('create', '{{site.google_tracking_id}}', 'auto');
       ga('send', 'pageview');
     </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLX2F3MT8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QLX2F3MT8E');
+</script>
     {% endif %}
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
   </body>
