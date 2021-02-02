@@ -3,7 +3,7 @@ layout: post
 title: "Menginstall Codeigniter4 melalui Composer"
 date: 2020-02-02 22:08:07 +0800
 categories: umum
-tags: codeigniter framework instalasi
+tags: codeigniter framework instalasi composer
 author: Firdaus Siregar
 comments: 1
 ---
