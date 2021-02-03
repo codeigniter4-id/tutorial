@@ -24,6 +24,8 @@ Sedangkan jika Anda menggunakan WampServer, file php.ini terdapat pada folder:
 C:/wamp64/bin/php/php7.4.3
 
 Selain itu, Codeigniter 4 tidak memiliki file “index.php” pada root project, dan file “index.php” dipindahkan ke folder “public” dengan alasan keamanan.
+
+
 Codeigniter 4 memudahkan web developer dengan penulisan kode program yang lebih singkat dan memberikan kemudahan dalam melacak error melalui mode “development”.
 
 Tidak hanya itu, Codeigniter 4 juga memudahkan web developer untuk membuat RESTful API, 
