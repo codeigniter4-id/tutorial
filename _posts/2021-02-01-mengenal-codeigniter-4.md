@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apa itu framework codeigniter4"
-date: 2020-02-02 22:08:07 +0800
+date: 2020-02-01 21:08:07 +0800
 categories: umum
 tags: codeigniter, framework
 author: Firdaus Siregar
